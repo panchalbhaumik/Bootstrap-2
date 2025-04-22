@@ -1,5 +1,5 @@
 .navbar-nav .nav-link:hover {
-    color: rgb(255, 213, 0) !important;
+    color: rgb(255, 98, 0) !important;
 }
 
 .nav-icon .nav-link:hover {
@@ -15,14 +15,25 @@
     height: 6px;
 }
 
+.btn-custom {
+    background-color: #ff7700;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn-custom:hover {
+    background-color: rgb(204, 89, 8);
+}
+
 .btn-orange {
-    background-color: #ffbb00;
+    background-color: #ff7700;
     color: white;
     font-weight: bold;
 }
 
 .btn-orange:hover {
-    background-color: #ffbb00;
+    background-color: #ff6a00;
 }
 
 .card-text small {
@@ -30,7 +41,7 @@
 }
 
 .title-highlight {
-    color: #ffbb00;
+    color: #ff6a00;
 }
 
 .px-6 {
@@ -39,7 +50,7 @@
 }
 
 .footer-link .footer-sec:hover {
-    color: #ffbb00;
+    color: #ff6a00;
 }
 
 .footer-link {
@@ -48,9 +59,50 @@
 }
 
 .footer-link:hover {
-    color: #ffbb00 !important;
+    color: #ff6a00 !important;
 }
 
 .footer-icon:hover {
-    color: #ffbb00 !important;
+    color: #ff6a00 !important;
+}
+
+.custom-carousel-btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 90%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 120px;
+}
+
+.carousel-control-next {
+    left: 170px;
+}
+
+.custom-carousel-btn span {
+    background-image: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.carousel-control-prev-icon::before {
+    content: '\2039';
+    /* Unicode for ‹ */
+    font-size: 1.5rem;
+    color: white;
+}
+
+.carousel-control-next-icon::before {
+    content: '\203A';
+    /* Unicode for › */
+    font-size: 1.5rem;
+    color: white;
 }
