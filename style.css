@@ -1,3 +1,13 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    word-break: break-word;
+}
+
 .navbar-nav .nav-link:hover {
     color: rgb(255, 98, 0) !important;
 }
